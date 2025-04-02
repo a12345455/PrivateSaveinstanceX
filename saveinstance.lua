@@ -129,7 +129,7 @@ local service = setmetatable({}, {
 })
 
 local gethiddenproperty_fallback
-do -- * Load Region of Déjà Vu
+do -- * Load Region of DÃ©jÃ  Vu
 	local UGCValidationService = service.UGCValidationService
 
 	gethiddenproperty_fallback = function(instance, propertyName)
@@ -2155,7 +2155,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 			end
 			Loading = task.spawn(function()
 				local spinner_count = 0
-				local chars = { "|", "/", "—", "\\" }
+				local chars = { "|", "/", "â€”", "\\" }
 				local chars_size = #chars
 
 				local function getLoadingText()
@@ -3003,8 +3003,9 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 						RecoveredScripts
 						) .. "\n" or "")
 					.. [[
-		Thank you for using UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw.
+		Thank you for using PrivateSaveinstanceX.
 
+By Sleeze
 		If you didn't save in Binary (rbxl) - it's recommended to save the game right away to take advantage of the binary format & to preserve values of certain properties if you used IgnoreDefaultProperties setting (as they might change in the future).
 		You can do that by going to FILE -> Save to File As -> Make sure File Name ends with .rbxl -> Save
 
